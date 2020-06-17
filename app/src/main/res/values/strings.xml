@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fictional-spoon</string>
+    <string name="login">Log in</string>
+    <string name="register">Register</string>
+    <string name="hobarb">Developed with ❤ by Hobarb</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

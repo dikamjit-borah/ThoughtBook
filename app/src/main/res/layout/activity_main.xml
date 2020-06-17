@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/custom_bg_1">
+
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/dream_orphans"
+        android:text="@string/hobarb"
+        android:textColor="#ffffff"
+        android:textSize="8sp" />
+
+    <LinearLayout
+        android:id="@+id/ll1_main"
+        android:layout_margin="12dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_login_main"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+
+            android:background="@drawable/custom_button_filled"
+            android:elevation="6dp"
+
+            android:fontFamily="@font/averia_libre"
+            android:text="@string/login"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"/>
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/button_register_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            android:background="@drawable/custom_button_border"
+            android:elevation="6dp"
+
+            android:fontFamily="@font/averia_libre"
+            android:text="@string/register"
+            android:textColor="#0b8793"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"/>
+    </LinearLayout>
+
+</RelativeLayout>
