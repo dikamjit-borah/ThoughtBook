@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView_mu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/refresh_mu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="Refresh"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+</FrameLayout>

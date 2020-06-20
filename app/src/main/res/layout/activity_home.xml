@@ -8,13 +8,16 @@
     tools:context=".Home"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#fcfcfc"
+    android:background="@drawable/custom_bg_1"
     android:gravity="center"
-    android:id="@+id/ll">
+    android:id="@+id/ll"
+    >
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:textColor="#fcfcfc"
         android:text="Hello User"></TextView>
     <LinearLayout
         android:clipToPadding="false"
@@ -53,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Make a ideapad"
+                    android:text="Make a thought!"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -87,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="My uploads"
+                    android:text="My thoughts"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -104,6 +107,7 @@
         android:text="Log out"
         android:textAllCaps="true"
         android:textAlignment="center"
-        android:textColor="#F44336"></TextView>
+        android:textColor="#F44336"
+        android:backgroundTint="#fcfcfc"></TextView>
 
 </LinearLayout>
