@@ -8,9 +8,15 @@
     android:background="@drawable/custom_bg_1">
 
 
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="384dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/thoughtpad"></ImageView>
     <TextView
-
-        android:id="@+id/textView"
+        android:id="@+id/textView_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -22,9 +28,10 @@
         android:textSize="8sp" />
 
     <LinearLayout
+
         android:id="@+id/ll1_main"
         android:layout_margin="12dp"
-        android:layout_centerInParent="true"
+       android:layout_above="@id/textView_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -46,7 +53,7 @@
             android:letterSpacing="0.1"/>
 
         <Button
-            android:visibility="invisible"
+            android:visibility="gone"
             android:id="@+id/button_register_main"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
