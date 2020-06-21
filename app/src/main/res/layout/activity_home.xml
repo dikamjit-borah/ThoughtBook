@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="My thoughts"
+                    android:text="View other thoughts"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -99,15 +99,30 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/signout_home"
+        android:id="@+id/contact_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
+        android:onClick="Contact"
+        android:backgroundTint="#fcfcfc"
+        android:text="Contact"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFC107"></TextView>
+
+    <TextView
+        android:id="@+id/signout_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:onClick="SignOut"
         android:text="Log out"
         android:textAllCaps="true"
         android:textAlignment="center"
         android:textColor="#F44336"
         android:backgroundTint="#fcfcfc"></TextView>
+
+
+
 
 </LinearLayout>

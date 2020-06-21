@@ -9,6 +9,7 @@
     android:layout_margin="12dp"
     android:id="@+id/ll_ip">
 
+
     <LinearLayout
         android:id="@+id/ll_1_ip"
         android:orientation="vertical"

@@ -5,17 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register"
+
     android:background="@drawable/custom_bg_1">
 
 
     <ImageView
+        android:layout_margin="10dp"
         android:id="@+id/logo_main"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
         android:layout_height="384dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/thoughtpad"></ImageView>
+        android:src="@drawable/thoughtbook"></ImageView>
     <TextView
+        android:layout_margin="8dp"
         android:id="@+id/textView_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +48,7 @@
             android:background="@drawable/custom_button_filled"
             android:elevation="6dp"
 
-            android:fontFamily="@font/averia_libre"
+
             android:text="@string/login"
             android:textColor="#ffffff"
             android:textSize="16sp"
@@ -62,7 +65,7 @@
             android:background="@drawable/custom_button_border"
             android:elevation="6dp"
 
-            android:fontFamily="@font/averia_libre"
+
             android:text="@string/register"
             android:textColor="#0b8793"
             android:textSize="16sp"

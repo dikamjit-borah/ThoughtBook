@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -56,6 +57,7 @@ FirebaseFirestore firebaseFirestore;
            @Override
            public void onClick(View v) {
 
+               Toast.makeText(My_Uploads.this, "Too fast!Try again", Toast.LENGTH_SHORT).show();
                firebaseFirestore.collection("ALL_IDEAS").get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                    @Override
                    public void onComplete(@NonNull Task<QuerySnapshot> task) {

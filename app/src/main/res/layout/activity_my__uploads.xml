@@ -2,9 +2,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="12dp">
+    android:layout_margin="12dp"
+
+    android:background="@drawable/custom_bg_1">
 
     <ListView
+        android:textAlignment="center"
+
         android:id="@+id/listView_mu"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

@@ -39,7 +39,7 @@
             android:background="@drawable/custom_button_border"
             android:elevation="6dp"
 
-            android:fontFamily="@font/averia_libre"
+          
             android:text="Get OTP"
             android:textColor="#ffffff"
             android:textSize="16sp"
@@ -53,11 +53,11 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_margin="4dp"
-android:visibility="invisible"
+            android:visibility="invisible"
             android:background="@drawable/custom_button_filled"
             android:elevation="6dp"
 
-            android:fontFamily="@font/averia_libre"
+          
             android:text="@string/login"
             android:textColor="#ffffff"
             android:textSize="16sp"
