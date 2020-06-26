@@ -14,17 +14,33 @@
         android:layout_height="match_parent">
 
     </ListView>
-
-    <ImageView
-        android:src="@drawable/iconfinder_refresh"
-        android:gravity="center"
+    <LinearLayout
         android:id="@+id/refresh_mu"
-        android:layout_width="128px"
-        android:layout_height="128px"
-        android:layout_gravity="center"
-        android:background="@android:color/holo_blue_light"
-        android:padding="10dp"
-        android:text="Refresh"
-        android:textColor="@android:color/white"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#fcfcfc"
+            android:textSize="10sp"
+            android:text="Here you can view thoughts, ideas and doodles of other people.\n Click refresh to update. \n">
+        </TextView>
+        <ImageView
+            android:src="@drawable/iconfinder_refresh"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/img_mu"
+            android:layout_width="128px"
+            android:layout_height="128px"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp"
+            android:text="Refresh"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
 </FrameLayout>

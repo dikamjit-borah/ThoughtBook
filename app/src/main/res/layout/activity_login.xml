@@ -77,6 +77,7 @@
 
             android:textAlignment="center"
             android:textColorHint="#ffffff"
+            android:textColor="#fcfcfc"
             android:id="@+id/editText_name_login"
             android:layout_width="match_parent"
             android:layout_height="56dp"
@@ -93,6 +94,7 @@
 
 
         <EditText
+            android:textColor="#fcfcfc"
             android:textAlignment="center"
             android:textColorHint="#ffffff"
             android:id="@+id/editText_phone_login"
@@ -110,6 +112,7 @@
 
 
         <EditText
+            android:textColor="#fcfcfc"
             android:textAlignment="center"
             android:textColorHint="#ffffff"
             android:id="@+id/editText_otp_login"

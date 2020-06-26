@@ -1,4 +1,4 @@
-package com.example.fictional_spoon;
+package com.hobarb.fictional_spoon;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.fictional_spoon", appContext.getPackageName());
+        assertEquals("com.hobarb.fictional_spoon", appContext.getPackageName());
     }
 }

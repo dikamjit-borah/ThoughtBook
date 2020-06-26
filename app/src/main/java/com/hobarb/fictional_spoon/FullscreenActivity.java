@@ -1,4 +1,4 @@
-package com.example.fictional_spoon;
+package com.hobarb.fictional_spoon;
 
 import android.annotation.SuppressLint;
 import android.support.v7.app.ActionBar;
@@ -9,7 +9,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * An example full-screen activity that shows and hides the system UI (i.e.
+ * An hobarb full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
  */
 public class FullscreenActivity extends AppCompatActivity {

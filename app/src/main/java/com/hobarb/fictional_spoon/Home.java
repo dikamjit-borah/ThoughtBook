@@ -1,4 +1,4 @@
-package com.example.fictional_spoon;
+package com.hobarb.fictional_spoon;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 public class Home extends AppCompatActivity {
 
